@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Define path for sharing files from external storage -->
+    <external-path name="images" path="Pictures/janbark" />
+    <!-- The 'path' attribute should match the directory structure where your files are stored -->
+</paths>
+

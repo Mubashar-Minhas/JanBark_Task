@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_round"
+    android:gravity="center_vertical"
+    android:weightSum="1"
+    android:paddingStart="@dimen/_12sdp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:src="@drawable/ic_camera"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/llScreenshot"
+        android:orientation="vertical"
+        android:layout_weight="0.4"
+        android:padding="@dimen/_4sdp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/screenshotImage"
+            android:src="@drawable/ic_screenshots"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextViewScreenshot"
+            android:text="Screenshot"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/llExist"
+        android:orientation="vertical"
+        android:padding="@dimen/_4sdp"
+        android:layout_weight="0.2"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelImage"
+            android:src="@drawable/ic_cancel"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextViewExist"
+            android:text="Exist"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"/>
+    </LinearLayout>
+</LinearLayout>

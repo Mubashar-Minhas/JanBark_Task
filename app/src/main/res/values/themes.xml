@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JanBarkTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.JanBarkTask" parent="Base.Theme.JanBarkTask" />
+
+    <style name="AdAttributionStyle">
+        <item name="android:layout_width">@dimen/_15sdp</item>
+        <item name="android:layout_height">@dimen/_15sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">@drawable/bg_ad_attribution_ten</item>
+        <item name="android:width">@dimen/_12sdp</item>
+        <item name="android:height">@dimen/_12sdp</item>
+    </style>
+</resources>

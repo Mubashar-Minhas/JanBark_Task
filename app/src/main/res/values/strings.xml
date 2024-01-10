@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JanBark Task</string>
+    <string name="channel_name">Notification</string>
+    <string name="channel_description">Take Screen Shot</string>
+    <string name="saved_image">saved Image</string>
+    <string name="menu_icon">Menu Icon</string>
+    <string name="janbark_task">JanBark Task</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="ad_attribution">Ad</string>
+</resources>
